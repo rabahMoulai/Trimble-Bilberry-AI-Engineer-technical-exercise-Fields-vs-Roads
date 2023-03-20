@@ -1,4 +1,10 @@
 seaborn 
 numpy
+matplotlib
+pandas
+scipy
+opencv-python
+tensorflow
+scikit-learn
 
--e .
+# -e .
