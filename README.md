@@ -1,0 +1,1 @@
+## Trimble-Bilberry : AI_Engineer_technical_exercise (Image Binary  Classification : Field vs Road )
