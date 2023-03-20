@@ -46,6 +46,6 @@ However, the main benefit of using the Keras ImageDataGenerator class is that it
 we evaluate our model with the test set but since it is a binary classifier we will not only evaluate the accuracy but also the ROC curve and the confusion matrix. 
 the accuracy on test set is between (85% to 94.4 %). this variation is due to the random factor when increasing the data by the image generator.
 
-the confusion matrix show that only 4 of the 39  are badly classified and i have 
+the confusion matrix show that only 5 of the 39  are badly classified and i have AUC = 0.97
 
 inferences images and their predictions can be viewed in the "predictions.png" image  The neural network typically predicts correctly 8 to 10 of the 10 inferences images.
