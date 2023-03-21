@@ -7,10 +7,6 @@ This is a binary image classification project using Convolutional Neural Network
 The objective of this task is to train a neural network to classify images of roads and fields.
 
 
-## Approach
-
-
-
 ## Insights from Data
 
 the first thing we notice when exploring our dataset is that the dataset is unbalanced and image resolution is not stable.
