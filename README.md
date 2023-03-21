@@ -30,26 +30,18 @@ Other transformations were considered, such as rotations, vertical flipping, and
 However, the main benefit of using the Keras ImageDataGenerator class is that it is designed to provide real-time data augmentation. Meaning it is generating augmented images on the fly while the model is still in the training stage.
 
 
-
-
-
-
-
-
-
 ## CNN Architecture
 
+For the architecture i choose a CNN Architecture with three convolutional layers, each followed by a maxpooling, and then finally two fully connected layers followeed Drop out regularization.
+This architecture is inspired from the AlexNet Architecture but is a much simplified version with fewer layers.\\
 
+Use of convolutional layers on images allows the neural network to extract higher-level information about the image, such as edges. Max pooling both reduces noise and reduce dimensionality, allowing for more robust and quick training. ReLU activation is used because it results in much faster training time as compared to logistic or tanh.\\
 
+The model will never see the same data twice, but some of the images it sees are strongly similar. The data is correlated because it comes from a small number of base images. With Data Augmentation we can't produce new information, we can only remix existing information. This may not be enough to get rid of the overfitting completely. So we will use the Dropout.\\
 
+Finally, sigmoid is used on the output to produce probabilities that sum to 1 over all possible classes.
 
-
-
-
-
-
-
-
+Experimentally, I found roughly 25 epochs was enough to sufficiently train the model
 
 ## Results
 
