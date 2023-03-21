@@ -9,7 +9,7 @@ The objective of this task is to train a neural network to classify images of ro
 
 ## Insights from Data
 
-the first thing we notice when exploring our dataset is that the dataset is unbalanced and image resolution is not stable.
+The first thing we notice when exploring our dataset is that the dataset is unbalanced and image resolution is not stable.
 we notice that the road class is in majority. To solve this problem, I chose to increase the data of the minority class. (over sampling)
 
 A small rotation is performed to equalize the number of examples in the majority class.
@@ -45,7 +45,7 @@ Experimentally, I found roughly 25 epochs was enough to sufficiently train the m
 
 ## Results
 
-we evaluate our model with the test set but since it is a binary classifier we will not only evaluate the accuracy but also the ROC curve and the confusion matrix.
+We evaluate our model with the test set but since it is a binary classifier we will not only evaluate the accuracy but also the ROC curve and the confusion matrix.
 
 the accuracy on test set is between (85% to 97.4 %). this variation is due to the random factor when increasing the data by the image generator.
 
