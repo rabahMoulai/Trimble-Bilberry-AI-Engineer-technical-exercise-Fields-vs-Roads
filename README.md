@@ -1,4 +1,4 @@
-# Trimble-Bilberry : AI_Engineer_technical_exercise (Image Binary Classification : Field vs Road )
+Image Binary Classification : Field vs Road 
 ## Dependencies
 pip3 install -r requirements.txt
 ## Objective
